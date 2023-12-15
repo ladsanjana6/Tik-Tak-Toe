@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-body{
-    background-color: #548654;
+body {
+    background-color: #865468;
     text-align: center;
 }
 
-.container{
+.container {
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body{
     gap: 1.5vmin;
 }
 
-.game{
+.game {
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -26,17 +26,28 @@ body{
     gap: 1.5vmin;
 }
 
-.box{
+.box {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     font-size: 8vmin;
-    color: #b041b0; ;
+    color: #9db041;
+    ;
 }
 
-#reset-btn{
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    background-color: rgb(209, 23, 23);
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
     padding: 1rem;
     font-size: 1.25rem;
     background-color: black;
@@ -46,31 +57,20 @@ body{
     border: none;
 }
 
-#new-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: black;
-    color: white;
-    background-color: lightcoral;
-    border-radius: 1rem;
-    border: none;
-}
-
-#msg{
+#msg {
     color: #ffffc7;
     font-size: 8vmin;
 }
 
-.msg-container{
+.msg-container {
     height: 80vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 3rem;
+    /* gap: 3rem; */
 }
 
-.hide{
+.hide {
     display: none;
 }
-
